@@ -1,0 +1,63 @@
+.container {
+  margin: 10px 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #6a4c93;
+  text-align: left;
+  border-bottom: 2px solid #6a4c93;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  color: #6a4c93;
+  margin-bottom: 10px;
+  border-left: 4px solid #6a4c93;
+  padding-left: 10px;
+}
+
+.highlightPurple {
+  color: #6a4c93;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.purple {
+  color: #6a4c93;
+  font-weight: bold;
+}
+
+.redBold {
+  color: #d85f5f;
+  font-size: 1.2rem;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.list li {
+  font-size: 1rem;
+  padding: 5px 0;
+  color: #444;
+}
+
+.listNumbered {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}

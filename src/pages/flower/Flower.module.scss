@@ -1,0 +1,37 @@
+.container {
+  margin: 10px 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #6a4c93;
+  text-align: left;
+  border-bottom: 2px solid #6a4c93;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  color: #6a4c93;
+  margin-bottom: 10px;
+  border-left: 4px solid #6a4c93;
+  padding-left: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.list li {
+  font-size: 1rem;
+  padding: 5px 0;
+  color: #444;
+}

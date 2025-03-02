@@ -1,0 +1,27 @@
+.header {
+  background-color: #fdf6e3;
+  padding: 15px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  color: #6a4c93;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menuImage {
+  filter: invert(24%) sepia(20%) saturate(1500%) hue-rotate(240deg);
+}

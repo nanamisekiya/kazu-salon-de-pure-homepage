@@ -1,0 +1,77 @@
+.sidebarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1000;
+  opacity: 1;
+}
+
+.sidebarOpen {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fdf6e3;
+  color: #6a4c93;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+  z-index: 1001; /* 背景より前に表示 */
+}
+
+.sidebarClosed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80vw;
+  max-width: 300px;
+  height: 100vh;
+  background-color: #fdf6e3;
+  color: #6a4c93;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+  z-index: 1001;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: #6a4c93;
+  cursor: pointer;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.navLink {
+  color: #6a4c93;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 12px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.navLink:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

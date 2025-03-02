@@ -1,0 +1,76 @@
+.container {
+  margin: 10px 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #6a4c93;
+  text-align: left;
+  border-bottom: 2px solid #6a4c93;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  color: #6a4c93;
+  margin-bottom: 10px;
+  border-left: 4px solid #6a4c93;
+  padding-left: 10px;
+}
+
+.highlightRed {
+  color: #d85f5f;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.curriculumList {
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.curriculumList li {
+  font-size: 1rem;
+  padding: 5px 0;
+  color: #444;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* ピンクの箇条書き（講義内容の説明） */
+.highlightPinkList {
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.highlightPinkList li {
+  font-size: 1rem;
+  padding: 5px 0;
+  position: relative;
+  padding-left: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.red {
+  color: #d85f5f;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}

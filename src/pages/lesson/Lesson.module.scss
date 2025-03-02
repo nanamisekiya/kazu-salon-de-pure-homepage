@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+  margin: 10px 20px 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #6a4c93;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #6a4c93;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: black;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.lessonTitle {
+  font-size: 20px;
+  color: #6a4c93;
+}
+
+.description {
+  font-size: 18px;
+  color: #444;
+}

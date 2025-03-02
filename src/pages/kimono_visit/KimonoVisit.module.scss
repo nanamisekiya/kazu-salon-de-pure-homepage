@@ -1,0 +1,82 @@
+.container {
+  margin: 10px 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #6a4c93;
+  text-align: left;
+  border-bottom: 2px solid #6a4c93;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.infoBox {
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.purple {
+  color: #6a4c93;
+  font-weight: bold;
+}
+
+.red {
+  color: #d85f5f;
+  font-weight: bold;
+}
+
+.important {
+  color: #d85f5f;
+  font-weight: bold;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  color: #6a4c93;
+  border-left: 4px solid #6a4c93;
+  padding-left: 10px;
+}
+
+.sectionTitleRed {
+  font-size: 1.4rem;
+  color: #d85f5f;
+  border-left: 4px solid #d85f5f;
+  padding-left: 10px;
+}
+
+.priceTable,
+.itemTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.priceTable td,
+.itemTable td,
+.itemTable th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.list li {
+  font-size: 1rem;
+  padding: 5px 0;
+  color: #444;
+}
